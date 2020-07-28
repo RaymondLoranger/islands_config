@@ -10,7 +10,7 @@ defmodule Islands.Config do
   @course_ref get_env(:course_ref)
 
   @doc "Returns the value for `key` in this application's environment."
-  @spec get(Application.key) :: String.t
+  @spec get(Application.key()) :: String.t()
   def get(key)
   def get(:book_ref), do: @book_ref
   def get(:book_and_course_ref), do: @book_and_course_ref
