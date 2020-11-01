@@ -4,8 +4,8 @@ defmodule Islands.Config.MixProject do
   def project do
     [
       app: :islands_config,
-      version: "0.1.0",
-      elixir: "~> 1.10",
+      version: "0.1.1",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       name: "Islands Config",
       source_url: source_url(),
